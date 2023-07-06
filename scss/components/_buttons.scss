@@ -1,0 +1,27 @@
+.header__btn {
+  color: #fff;
+  font-size: 1.125rem;
+  font-family: $main-font-family;
+  font-weight: 600;
+  line-height: 1.75rem;
+  margin-left: auto;
+  padding: 0.6rem 2rem;
+  border: 2px solid #fff;
+  transition: 0.3s;
+  border-radius: 1.5rem;
+
+  &:hover {
+    background-color: $primary-white;
+    color: $secondary-dark-green;
+  }
+  &:active {
+    background-color: $primary-midnight-green;
+    color: grey;
+    border-color: gray;
+    // opacity: 0.2;
+  }
+}
+
+.header__toggle-btn {
+  display: none;
+}

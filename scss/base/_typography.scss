@@ -1,0 +1,77 @@
+$primary-midnight-green: #014e56;
+$primary-ligth-coral: #f67e7e;
+$primary-white: #ffffff;
+
+$secondary-rapture-blue: #79c8c7;
+$secondary-police-blue: #2c6269;
+$secondary-deep-jungle-green: #004047;
+$secondary-sacramento-state-green: #012f34;
+$secondary-dark-green: #002529;
+
+$main-font-family: "Livvic", sans-serif;
+
+$h1-lage-font-size: 10rem;
+$h1-lage-lh: 1;
+
+$h1-small-font-size: 6.4rem;
+$h1-small-lh: 0.875;
+
+$h2-font-size: 4.8rem;
+$h2-lh: 1;
+
+$h3-font-size: 1.8rem;
+$h3-lh: 1.55;
+
+$body1-font-size: 1.8rem;
+$body1-lh: 1.55;
+
+$body2-font-size: 1.5rem;
+$body2-lh: 1.66;
+
+/* livvic-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/livvic-v14-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* livvic-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/livvic-v14-latin-500italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* livvic-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/livvic-v14-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* livvic-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/livvic-v14-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* livvic-700italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/livvic-v14-latin-700italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  font-family: $main-font-family;
+  // font-size: $body2-font-size;
+  line-height: $body2-lh;
+  color: $primary-white;
+}
